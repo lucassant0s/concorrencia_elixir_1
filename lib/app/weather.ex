@@ -1,6 +1,6 @@
 defmodule App.Weather do
   def get_appid() do
-    "a2fe86c35b984aa85bf1b28b18c13e10"
+    "APP_ID"
   end
 
   def get_endpoint(location) do
