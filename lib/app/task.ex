@@ -27,7 +27,7 @@ defmodule App.SimpleWeather do
   end
 
   defp get_appid() do
-    "8961657a9594868f8a4e77babe8db1f7"
+    "APP_ID"
   end
 
   defp parser_response({:ok, %HTTPoison.Response{body: body, status_code: 200}}) do
